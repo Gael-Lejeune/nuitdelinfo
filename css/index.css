@@ -5,9 +5,6 @@ body{
     font-family: 'Staatliches', cursive;
     font-size: 20px;
     color: white;
-    position: absolute;
-    display: block;
-    height: 100%;
 
     background-image:url("../image/School.jpg");
     background-attachment: fixed;
@@ -22,5 +19,46 @@ body{
     margin-left: 16px;
     height: 320px;
     transition: 16s linear;
-
 }
+
+.course {
+    font-size: 16px;
+    font-family: Bebas;
+    color: white;
+    position: absolute;
+}
+
+.rick {
+    font-size: 16px;
+    font-family: Bebas;
+    color: white;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 10%;
+}
+
+#bouton1 {
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+#bouton2 {
+    margin-left: 20%;
+    margin-top: 90%;
+}
+
+#bouton3 {
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+#bouton4 {
+    margin-left: 10%;
+    margin-top: 50%;
+}
+
+#bouton5 {
+    margin-left: 45%;
+    margin-top: 20%;
+}
+

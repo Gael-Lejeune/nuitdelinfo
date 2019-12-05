@@ -11,9 +11,10 @@
 
     <link rel="stylesheet" href="css/index.css">
 
+    <script src="javascript/zombieAtt.js"></script>
     <script src="javascript/gameOver.js"></script>
 </head>
-<body onload="zombieRun(), setTimeout('perdu()', 5000);">
+<body onload="zombieRun()">
 
 <img alt="zombie" id="zombieAtt" src="image/Zombiereverse.gif">
 
@@ -24,15 +25,12 @@
     <title>Test escape</title>
 </head>
 
-<a id="bouton1" onclick="test();" >Courir !</a>
-<a style="display: none;" id="bouton2" onclick="test();">Courir !!</a>
-<a style="display: none;" id="bouton3" onclick="test();">Courir !!!</a>
-<a style="display: none;" id="bouton4" onclick="test();">Pas là !</a>
-<a style="display: none;" id="bouton5" onclick="test();">Mais là oui !</a>
+<a id="bouton1" class="course" onclick="test();" >Courir !</a>
+<a id="bouton2" class="course" style="display: none;" onclick="test();">Courir !!</a>
+<a id="bouton3" class="course" style="display: none;" onclick="test();">Courir !!!</a>
+<a id="bouton4" class="course" style="display: none;" onclick="test();">Courir !!!</a>
+<a id="bouton5" class="course" style="display: none;" href="i109.php">Mais là oui !</a>
 
-
-</body>
-</html>
-
+<a class="rick" style=" color: white; text-decoration: none;" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3"> Pas là !!! </a>
 </body>
 </html>
