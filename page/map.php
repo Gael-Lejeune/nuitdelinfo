@@ -16,7 +16,6 @@
 
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link id="pagestyle" rel="stylesheet" type="text/css" href="../css/map.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
