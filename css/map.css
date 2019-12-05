@@ -1,0 +1,16 @@
+body {
+    /*visual*/
+    font-family: 'Pixel', sans-serif;
+    font-size: 100%;
+
+    background-image: url("../image/map.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: "Pixel";
+    src: url('../fonts/PIXELADE.ttf');
+}
