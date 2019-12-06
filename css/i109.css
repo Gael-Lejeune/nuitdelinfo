@@ -11,7 +11,7 @@ body {
     background-image: url("../image/i109.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100vh;
 }
 
 .map {

@@ -9,3 +9,11 @@ function afficherFenetre(id_de_la_fenetre) {
         etat = "nonvisible";
     }
 }
+
+function checkCode() {
+    var cde = document.getElementById('codelife');
+    if(cde.value == '1664'){
+        afficherFenetre('code');
+        afficherFenetre('code');
+    }
+}

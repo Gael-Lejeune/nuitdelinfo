@@ -11,7 +11,7 @@ body {
     background-image: url("../image/canteen.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100vh;
 }
 
 .i105 {
@@ -68,6 +68,6 @@ body {
 }
 
 #postit1 {
-    margin-left: 100px;
-    margin-top: 350px;
+    margin-left: 5%;
+    margin-top: 30vh;
 }

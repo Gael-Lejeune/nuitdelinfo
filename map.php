@@ -24,7 +24,7 @@
             <ul>
                 <div>
                     <li> <a href="i120.php">salle - 120</a> </li>
-                    <li> <a href="#">salle - 117</a> </li>
+                    <li> <a href="i117.php">salle - 117</a> </li>
                 </div>
                 <div>
                     <li> <a href="i109.php">salle - 109</a> </li>
