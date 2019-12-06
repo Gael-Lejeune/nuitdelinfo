@@ -24,7 +24,7 @@
     </div>
 </div>
 
-<a class="i105" href="i105.php"> Aller au digicode </a>
+<a class="i105" href="Digicode.php"> Aller au digicode </a>
 
 </body>
 </html>
