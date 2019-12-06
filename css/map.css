@@ -1,7 +1,7 @@
 body {
     /*visual*/
     font-family: 'Pixel', sans-serif;
-    font-size: 100%;
+    font-size: 300%;
 
     background-image: url("../image/map.jpg");
     background-position: center;
@@ -12,5 +12,54 @@ body {
 
 @font-face {
     font-family: "Pixel";
-    src: url('../fonts/PIXELADE.ttf');
+    src: url('../fonts/PIXELADE.TTF');
+}
+
+section {
+    /*position/size*/
+    height: 100vh;
+}
+
+nav {
+    /*position/size*/
+    padding-top: 80px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div {
+    height: 150px;
+}
+
+a {
+    /*position/size*/
+    width: 43%;
+    margin: 20px;
+
+    float: left;
+    line-height: 100px;
+
+    /*visual*/
+    text-decoration: none;
+    color: black;
+
+    border-style: solid;
+    border-color: rgba(0, 0, 0,1.0);
+    border-radius: 1px;
+    border-width: 4px;
+
+    /*transition*/
+    transition-duration: 0.3s;
+    transition-property: margin-top;
+}
+
+a:hover {
+    /*position/size*/
+    margin-top: 22px;
+
+    /*transition*/
+    transition-duration: 0.3s;
+    transition-property: margin-top;
 }

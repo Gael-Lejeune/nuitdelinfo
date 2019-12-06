@@ -22,11 +22,17 @@
     <section>
         <nav>
             <ul>
-                <li> <a href="#">salle - 117</a> </li>
-                <li> <a href="#">salle - 117</a> </li>
-                <li> <a href="#">salle - 117</a> </li>
-                <li> <a href="#">salle - 117</a> </li>
-                <li> <a href="#">salle - 117</a> </li>
+                <div>
+                    <li> <a href="../i120.php">salle - 120</a> </li>
+                    <li> <a href="#">salle - 117</a> </li>
+                </div>
+                <div>
+                    <li> <a href="../i109.php">salle - 109</a> </li>
+                    <li> <a href="#">salle - 105</a> </li>
+                </div>
+                <div>
+                    <li> <a id="sortie" href="#">sortie</a> </li>
+                </div>
             </ul>
         </nav>
     </section>
