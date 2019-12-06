@@ -31,7 +31,7 @@
                     <li> <a href="i105.php">salle - 105</a> </li>
                 </div>
                 <div>
-                    <li> <a id="sortie" href="#">sortie</a> </li>
+                    <li> <a id="sortie" href="Digicode.php">sortie</a> </li>
                     <li> <a href="erreur404.php">Error 404</a> </li>
                 </div>
             </ul>

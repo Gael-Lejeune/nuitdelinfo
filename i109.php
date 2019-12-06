@@ -29,7 +29,9 @@
 
 <div class="fenetre_alert4" id="postit4">
     <form action="i120.php?CODE_FINAL=0" method="post">
-        Entrez le code de validation :
+        Un zombie informaticien ne crie pas il :
+        assemblez les post it dans l’ordre pour compléter la blague et sortir de la salle vivant
+            Autre chose survivant : le résultat est un indice pour sortir d’ici, REGARDE LE !
 
         <input type="text" name="code_validation" pattern="URL">
     </form>

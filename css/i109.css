@@ -24,9 +24,20 @@ body {
     font-size: 32px;
 }
 
-.fenetre_alert1, .fenetre_alert2, .fenetre_alert3, .fenetre_alert4 {
+.fenetre_alert1, .fenetre_alert2, .fenetre_alert3 {
     width: 240px;
     height: 240px;
+    background-color: #f9ee91;
+    font-weight: bold;
+    visibility: hidden; /*partie importante: cacher la div et son contenu*/
+    z-index: 9999; /*partie importante: à l'affichage, la div sera au-dessus de tout le reste*/
+    position: absolute; /*à titre d'exemple également*/
+    top: 100px;
+}
+
+.fenetre_alert4 {
+    width: 280px;
+    height: 300px;
     background-color: #f9ee91;
     font-weight: bold;
     visibility: hidden; /*partie importante: cacher la div et son contenu*/
@@ -47,7 +58,7 @@ body {
 .fenetre_alert4 form {
     font-family: bebas;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     color: black;
     margin-top: 78px;
 
@@ -74,6 +85,7 @@ body {
 }
 
 #postit4 {
+    font-size: 16px;
     margin-left: 80%;
     margin-top: 2%;
 }
