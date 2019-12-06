@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Fin</title>
+
+    <link rel="stylesheet" href="css/fin.css">
+
 </head>
 <body>
-<p> Felicitation ! tu t'en est sortit vivant ! merci d'avoir joué à notre jeu !</p>
+<p class="Bravo"> Felicitations ! tu t'en es sorti vivant ! Merci d'avoir joué à notre jeu !</p>
 </body>
 </html>

@@ -14,9 +14,10 @@
    Cause de difficulte <br>
    La nuit de l’info souhaite m’eradiquer </p>
 
-<form action="enigmefinale.php" method="post">
-    réponse: <input type="text" name="answer"><br>
-    <input type="submit">
+<form class="enigme-form" action="Fin.php" method="post">
+    <p> Qui suis-je ? </p>
+    <input class="reponse" type="text" name="answer"><br>
+    <input class="valider" type="submit">
 </form>
 
 </body>

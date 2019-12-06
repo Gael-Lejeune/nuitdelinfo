@@ -1,0 +1,102 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Tomorrow', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.map {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    font-family: bebas;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.div1{
+    margin: 0;
+    height: 25vh;
+    background: repeat-x url("../image/grass.png") #2FC7E6 bottom center;
+    background-size: 50%;
+
+}
+
+body > div{
+    margin: 0;
+    background-color: #5EAA30;
+    height: 75vh;
+}
+
+canvas{
+    border: 5px solid darkgreen;
+    border-radius: 10px;
+    background-color: #398C06;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+
+#scoreFinal{
+    border: 5px solid darkgreen;
+    border-radius: 10px;
+    background-color: #398C06;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#scoreFinal > p{
+    text-align: center;
+    font-size: 2.4em;
+}
+
+#scoreFinal > button{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+#scoreFinal > button:hover{
+    background: gray;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 6vmax;
+    margin-top: 0vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5vmax;
+}
+
+#score_board
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin: auto;
+}
