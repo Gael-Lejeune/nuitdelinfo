@@ -1,13 +1,23 @@
+<?php
+?>
+
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>digicode</title>
+    <meta charset="utf-8">
+    <title> Index </title>
+
+    <link rel="stylesheet" href="css/digicode.css">
+
+    <script src="javascript/postit.js"></script>
+
 </head>
 <body>
 
 <form action="form_enigme.php" method="post">
-    Code: <input type="text" name="code"><br>
-    <input type="submit">
+    <input class="zone" type="text" name="code"><br>
+    <input class="valider" type="submit">
 </form>
+
 </body>
 </html>

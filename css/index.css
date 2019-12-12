@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: white;
+
+    background-image:url("../image/School.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.map {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    font-family: bebas;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+#zombieAtt {
+    position: fixed;
+    display: block;
+    margin-top: 200px;
+    margin-left: 16px;
+    height: 320px;
+    transition: 16s linear;
+}
+
+#hommePleureur {
+    height: 540px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+.course {
+    font-size: 16px;
+    font-family: Bebas;
+    color: white;
+    position: absolute;
+}
+
+.rick {
+    font-size: 16px;
+    font-family: Bebas;
+    color: white;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 10%;
+}
+
+#bouton1 {
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+#bouton2 {
+    margin-left: 20%;
+    margin-top: 90%;
+}
+
+#bouton3 {
+    margin-left: 70%;
+    margin-top: 10%;
+}
+
+#bouton4 {
+    margin-left: 10%;
+    margin-top: 50%;
+}
+
+#bouton5 {
+    margin-left: 45%;
+    margin-top: 20%;
+}
+

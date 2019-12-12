@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    height: 100%;
+
+    background-image: url("../image/i117.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.map {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    font-family: bebas;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.fenetre_alert {
+    width: 200px;
+    height: 160px;
+    font-weight: bold;
+    visibility: hidden; /*partie importante: cacher la div et son contenu*/
+    z-index: 9999; /*partie importante: à l'affichage, la div sera au-dessus de tout le reste*/
+    position: absolute; /*à titre d'exemple également*/
+    margin-left: 20%;
+    margin-top: 24vh;
+}
+
+.fenetre_alert2
+{
+    font-weight: bold;
+    font-color: black;
+    visibility: hidden; /*partie importante: cacher la div et son contenu*/
+    z-index: 9999; /*partie importante: à l'affichage, la div sera au-dessus de tout le reste*/
+}
+
+.fenetre_alert p{
+    width: 30vh;
+    font-family: bebas;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -2vh;
+    margin-left: -30%;
+    color: black;
+    transform: rotate(-0.5deg);
+
+}
+
+.i105 {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    font-family: bebas;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.triangle {
+    height: 15vh;
+}
+
+.map1 {
+    position: absolute;
+    font-family: bebas;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 7%;
+    margin-top: 76vh;
+    width: 40vh;
+    height: 7vh;
+    transform: rotate(-9deg);
+}
+
+.map1 img{
+    height: 64px;
+
+}
+
+.exit {
+    margin-left: 26.2%;
+    margin-top: 3.5vh;
+    position: absolute;
+    width: 15vh;
+    height: 8vh;
+    /*border: 1px solid deeppink;*/
+}
+
+
+

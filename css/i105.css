@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    height: 100%;
+
+    background-image: url("../image/office.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.map {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    font-family: bebas;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.rickrick {
+    height: 11vh;
+}
+
+.fenetre_alert {
+    width: 200px;
+    height: 160px;
+    background-color: #0b78d4;
+    font-weight: bold;
+    visibility: hidden; /*partie importante: cacher la div et son contenu*/
+    z-index: 9999; /*partie importante: à l'affichage, la div sera au-dessus de tout le reste*/
+    position: absolute; /*à titre d'exemple également*/
+    right: 0;
+    margin-right: 10%;
+    margin-top: 60vh;
+}
+
+.fenetre_alert2
+{
+    font-weight: bold;
+    font-color: black;
+    visibility: hidden; /*partie importante: cacher la div et son contenu*/
+    z-index: 9999; /*partie importante: à l'affichage, la div sera au-dessus de tout le reste*/
+}
+
+.fenetre_alert p{
+    font-family: bebas;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+
+}
+
+.map1 {
+    position: absolute;
+    font-family: bebas;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    right: 0;
+    margin-right: 11%;
+    margin-top: 47vh;
+}
+
+.map1 img{
+    height: 64px;
+
+}
+
+.exit {
+    margin-left: 26.2%;
+    margin-top: 3.5vh;
+    position: absolute;
+    width: 15vh;
+    height: 8vh;
+    /*border: 1px solid deeppink;*/
+}
+
+
+

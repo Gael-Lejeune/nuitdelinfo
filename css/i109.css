@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    height: 100vh;
+
+    background-image: url("../image/i109.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.map {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    font-family: bebas;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.fenetre_alert1, .fenetre_alert2, .fenetre_alert3 {
+    width: 240px;
+    height: 240px;
+    background-color: #f9ee91;
+    font-weight: bold;
+    visibility: hidden; /*partie importante: cacher la div et son contenu*/
+    z-index: 9999; /*partie importante: à l'affichage, la div sera au-dessus de tout le reste*/
+    position: absolute; /*à titre d'exemple également*/
+    top: 100px;
+}
+
+.fenetre_alert4 {
+    width: 280px;
+    height: 300px;
+    background-color: #f9ee91;
+    font-weight: bold;
+    visibility: hidden; /*partie importante: cacher la div et son contenu*/
+    z-index: 9999; /*partie importante: à l'affichage, la div sera au-dessus de tout le reste*/
+    position: absolute; /*à titre d'exemple également*/
+    top: 100px;
+}
+
+.fenetre_alert1 p, .fenetre_alert2 p, .fenetre_alert3 p {
+    font-family: bebas;
+    text-align: center;
+    font-size: 64px;
+    color: black;
+    margin-top: 78px;
+
+}
+
+.fenetre_alert4 form {
+    font-family: bebas;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin-top: 78px;
+
+}
+
+.postit {
+    height: 64px;
+    position: absolute;
+}
+
+#postit1 {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#postit2 {
+    margin-left: 60%;
+    margin-top: 30%;
+}
+
+#postit3 {
+    margin-left: 50%;
+    margin-top: 80%;
+}
+
+#postit4 {
+    font-size: 16px;
+    margin-left: 80%;
+    margin-top: 2%;
+}
